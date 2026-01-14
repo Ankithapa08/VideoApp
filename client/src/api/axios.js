@@ -1,8 +1,10 @@
-import axios from "axios"
-import.meta.env.VITE_APP_API_URL
-const api = axios.create({
-    baseURL: "process.env.REACT_APP_API_URL || http://localhost:8000/api/v1",
-    withCredentials : true,
-})
+import axios from "axios";
 
-export default api;
+const instance = axios.create({
+  baseURL: import.meta.env.VITE_API_URL || http://localhost:8000/api/v1,
+  withCredentials: true,
+});
+
+export default instance;
+
+
