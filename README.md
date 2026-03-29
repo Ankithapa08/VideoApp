@@ -87,3 +87,7 @@ npm run dev
 Frontend will run at:
 
 http://localhost:5173
+
+
+## API Documentation
+Import the Postman collection from /docs/postman_collection.json
